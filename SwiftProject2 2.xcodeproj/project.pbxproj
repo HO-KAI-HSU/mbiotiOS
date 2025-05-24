@@ -7,34 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B099FE52DC73F9C00914D89 /* UserSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B099FE42DC73F9C00914D89 /* UserSetting.swift */; };
-		1B1B931E2DD4E4D3006F5722 /* AesUtilHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B931D2DD4E4D3006F5722 /* AesUtilHelper.swift */; };
-		1B1B93212DD4E64B006F5722 /* Crypto in Frameworks */ = {isa = PBXBuildFile; productRef = 1B1B93202DD4E64B006F5722 /* Crypto */; };
-		1B1B93232DD4E64B006F5722 /* _CryptoExtras in Frameworks */ = {isa = PBXBuildFile; productRef = 1B1B93222DD4E64B006F5722 /* _CryptoExtras */; };
-		1B1B93282DE15FBA006F5722 /* CopyableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B93272DE15FBA006F5722 /* CopyableTextField.swift */; };
 		1B7A6AE52A8A656600D8960C /* SwiftProject2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7A6AE42A8A656600D8960C /* SwiftProject2App.swift */; };
+		1B7A6AE72A8A656600D8960C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7A6AE62A8A656600D8960C /* ContentView.swift */; };
 		1B7A6AE92A8A656B00D8960C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7A6AE82A8A656B00D8960C /* Assets.xcassets */; };
 		1B7A6AEC2A8A656B00D8960C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B7A6AEB2A8A656B00D8960C /* Preview Assets.xcassets */; };
-		1BDF834D2BF8F0AC00E05430 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BDF834C2BF8F0AC00E05430 /* Settings.bundle */; };
-		1BDF83512BF9A03E00E05430 /* IndexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF83502BF9A03E00E05430 /* IndexView.swift */; };
-		1BDF83532BF9A2F000E05430 /* SystemWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF83522BF9A2F000E05430 /* SystemWebView.swift */; };
-		1BDF83562BF9A4A100E05430 /* SettingsBundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF83552BF9A4A100E05430 /* SettingsBundleHelper.swift */; };
-		1BDF835E2BFA5AF200E05430 /* EnvironmentEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDF835D2BFA5AF200E05430 /* EnvironmentEnum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1B099FE42DC73F9C00914D89 /* UserSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSetting.swift; sourceTree = "<group>"; };
-		1B1B931D2DD4E4D3006F5722 /* AesUtilHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AesUtilHelper.swift; sourceTree = "<group>"; };
-		1B1B93272DE15FBA006F5722 /* CopyableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyableTextField.swift; sourceTree = "<group>"; };
 		1B7A6AE12A8A656600D8960C /* SwiftProject2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProject2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7A6AE42A8A656600D8960C /* SwiftProject2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProject2App.swift; sourceTree = "<group>"; };
+		1B7A6AE62A8A656600D8960C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1B7A6AE82A8A656B00D8960C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B7A6AEB2A8A656B00D8960C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1BDF834C2BF8F0AC00E05430 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		1BDF83502BF9A03E00E05430 /* IndexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexView.swift; sourceTree = "<group>"; usesTabs = 0; };
-		1BDF83522BF9A2F000E05430 /* SystemWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemWebView.swift; sourceTree = "<group>"; };
-		1BDF83552BF9A4A100E05430 /* SettingsBundleHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsBundleHelper.swift; sourceTree = "<group>"; };
-		1BDF835D2BFA5AF200E05430 /* EnvironmentEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentEnum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,39 +26,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B1B93232DD4E64B006F5722 /* _CryptoExtras in Frameworks */,
-				1B1B93212DD4E64B006F5722 /* Crypto in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B1B93262DE15F8E006F5722 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				1B1B93272DE15FBA006F5722 /* CopyableTextField.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		1B3BAB162BD4BDE9009672BB /* View */ = {
-			isa = PBXGroup;
-			children = (
-				1BDF83522BF9A2F000E05430 /* SystemWebView.swift */,
-				1BDF83502BF9A03E00E05430 /* IndexView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		1B3BAB172BD4BE44009672BB /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				1B099FE42DC73F9C00914D89 /* UserSetting.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		1B7A6AD82A8A656600D8960C = {
 			isa = PBXGroup;
 			children = (
@@ -94,14 +51,8 @@
 		1B7A6AE32A8A656600D8960C /* SwiftProject2 */ = {
 			isa = PBXGroup;
 			children = (
-				1B1B93262DE15F8E006F5722 /* Extensions */,
-				1BDF835C2BFA5AC300E05430 /* Enum */,
-				1BDF83572BF9E69B00E05430 /* Controller */,
-				1BDF83542BF9A47B00E05430 /* Helper */,
-				1BDF834C2BF8F0AC00E05430 /* Settings.bundle */,
-				1B3BAB172BD4BE44009672BB /* Models */,
-				1B3BAB162BD4BDE9009672BB /* View */,
 				1B7A6AE42A8A656600D8960C /* SwiftProject2App.swift */,
+				1B7A6AE62A8A656600D8960C /* ContentView.swift */,
 				1B7A6AE82A8A656B00D8960C /* Assets.xcassets */,
 				1B7A6AEA2A8A656B00D8960C /* Preview Content */,
 			);
@@ -114,30 +65,6 @@
 				1B7A6AEB2A8A656B00D8960C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		1BDF83542BF9A47B00E05430 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				1BDF83552BF9A4A100E05430 /* SettingsBundleHelper.swift */,
-				1B1B931D2DD4E4D3006F5722 /* AesUtilHelper.swift */,
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
-		1BDF83572BF9E69B00E05430 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		1BDF835C2BFA5AC300E05430 /* Enum */ = {
-			isa = PBXGroup;
-			children = (
-				1BDF835D2BFA5AF200E05430 /* EnvironmentEnum.swift */,
-			);
-			path = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,10 +83,6 @@
 			dependencies = (
 			);
 			name = SwiftProject2;
-			packageProductDependencies = (
-				1B1B93202DD4E64B006F5722 /* Crypto */,
-				1B1B93222DD4E64B006F5722 /* _CryptoExtras */,
-			);
 			productName = SwiftProject2;
 			productReference = 1B7A6AE12A8A656600D8960C /* SwiftProject2.app */;
 			productType = "com.apple.product-type.application";
@@ -188,9 +111,6 @@
 				Base,
 			);
 			mainGroup = 1B7A6AD82A8A656600D8960C;
-			packageReferences = (
-				1B1B931F2DD4E64B006F5722 /* XCRemoteSwiftPackageReference "swift-crypto" */,
-			);
 			productRefGroup = 1B7A6AE22A8A656600D8960C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -206,7 +126,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B7A6AEC2A8A656B00D8960C /* Preview Assets.xcassets in Resources */,
-				1BDF834D2BF8F0AC00E05430 /* Settings.bundle in Resources */,
 				1B7A6AE92A8A656B00D8960C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,14 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BDF83562BF9A4A100E05430 /* SettingsBundleHelper.swift in Sources */,
-				1BDF83532BF9A2F000E05430 /* SystemWebView.swift in Sources */,
-				1BDF83512BF9A03E00E05430 /* IndexView.swift in Sources */,
-				1B099FE52DC73F9C00914D89 /* UserSetting.swift in Sources */,
+				1B7A6AE72A8A656600D8960C /* ContentView.swift in Sources */,
 				1B7A6AE52A8A656600D8960C /* SwiftProject2App.swift in Sources */,
-				1B1B93282DE15FBA006F5722 /* CopyableTextField.swift in Sources */,
-				1BDF835E2BFA5AF200E05430 /* EnvironmentEnum.swift in Sources */,
-				1B1B931E2DD4E4D3006F5722 /* AesUtilHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +196,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -338,7 +251,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -356,10 +269,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftProject2/Preview Content\"";
-				DEVELOPMENT_TEAM = B3DFEQD62F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "茂博智能家居";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -386,10 +297,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftProject2/Preview Content\"";
-				DEVELOPMENT_TEAM = B3DFEQD62F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "茂博智能家居";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -430,30 +339,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		1B1B931F2DD4E64B006F5722 /* XCRemoteSwiftPackageReference "swift-crypto" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apple/swift-crypto.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.12.3;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		1B1B93202DD4E64B006F5722 /* Crypto */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1B1B931F2DD4E64B006F5722 /* XCRemoteSwiftPackageReference "swift-crypto" */;
-			productName = Crypto;
-		};
-		1B1B93222DD4E64B006F5722 /* _CryptoExtras */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1B1B931F2DD4E64B006F5722 /* XCRemoteSwiftPackageReference "swift-crypto" */;
-			productName = _CryptoExtras;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1B7A6AD92A8A656600D8960C /* Project object */;
 }
