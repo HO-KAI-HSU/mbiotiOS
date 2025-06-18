@@ -62,6 +62,12 @@ struct IndexView: View {
                 
                 Button("登入系統") {
                     Refresh()
+                    print("enableSignIn : \(enableSignIn)")
+                    if !enableSignIn {
+                        let _ = print("IndexView url : \(userSetting.url)")
+                        let _ = print("IndexView uId : \(userSetting.uuid)")
+                        OpenAppSettings()
+                    }
                 }
                 .frame(width: 300)
                 .padding()
